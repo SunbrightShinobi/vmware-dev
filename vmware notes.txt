@@ -1,0 +1,30 @@
+
+Get-VM PCW-ADMIN `
+| Get-NetworkAdapter -Name "Network Adapter 1" `
+| Set-NetworkAdapter `
+-PortGroup "INFRA" `
+-Type "e1000e" `
+-StartConnected:$true `
+-MacAddress "00:0c:29:00:6b:87" `
+-Confirm:$false
+
+
+
+New-VM -VMHost 10.10.31.240 `
+-Name:"ESXi-DEV" `
+-GuestID:vmkernel65guest `
+-MemoryGB:8 `
+-NumCpu:2 `
+-CoresPerSocket:2 `
+-DiskGB:40 `
+-DiskStorageFormat:"Thin" `
+-Datastore:"datastore_ssd0" `
+-CD `
+-NetworkName:"VM Network"
+
+
+# Lists Guest Host OS codes
+[VMware.Vim.VirtualMachineGuestOsIdentifier].GetEnumValues()
+
+
+

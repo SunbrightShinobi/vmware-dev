@@ -1,0 +1,29 @@
+common
+configuration_files
+latex_templates
+sphinx_python_scripts
+scripts
+program_template
+__pycache__
+
+# emacs backup files
+*~
+# emacs interlock files
+.\#*
+# emacs auto save files
+\#*\#
+
+build/
+!common/
+!configuration_files/
+!latex_templates/
+!sphinx_python_scripts/
+!scripts/
+!Bginfo64.Ink
+vcenter/*.iso
+vcenter/source/*
+/deploy_vms/isos/*
+
+*.pyc
+*.lnk
+*.stackdump

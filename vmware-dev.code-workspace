@@ -1,0 +1,47 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.wordWrap": "on",
+        "editor.detectIndentation": false,
+        "files.autoSave": "afterDelay",
+        "git.allowForcePush": true,
+        "git.defaultCloneDirectory": "C:\\gitrepos\\github\\",
+        "editor.renderWhitespace": "all",
+        "git.promptToSaveFilesBeforeCommit": true,
+        "git.rebaseWhenSync": true,
+        "git.showPushSuccessNotification": true,
+        "git.autofetch": true,
+        "sync.autoDownload": false,
+        "sync.forceDownload": true,
+        "git.confirmSync": false,
+        "explorer.confirmDragAndDrop": false,
+        "files.eol": "\n",
+        "git.confirmForcePush": false,
+        "sync.forceUpload": true,
+        "explorer.autoReveal": false,
+        "team.showWelcomeMessage": false,
+        "workbench.colorCustomizations": {
+            "activityBar.activeBackground": "#65c89b",
+            "activityBar.activeBorder": "#945bc4",
+            "activityBar.background": "#65c89b",
+            "activityBar.foreground": "#15202b",
+            "activityBar.inactiveForeground": "#15202b99",
+            "activityBarBadge.background": "#945bc4",
+            "activityBarBadge.foreground": "#e7e7e7",
+            "statusBar.background": "#42b883",
+            "statusBar.border": "#42b883",
+            "statusBar.foreground": "#15202b",
+            "statusBarItem.hoverBackground": "#359268",
+            "titleBar.activeBackground": "#42b883",
+            "titleBar.activeForeground": "#15202b",
+            "titleBar.border": "#42b883",
+            "titleBar.inactiveBackground": "#42b88399",
+            "titleBar.inactiveForeground": "#15202b99"
+        },
+        "peacock.color": "#42b883"
+	}
+}

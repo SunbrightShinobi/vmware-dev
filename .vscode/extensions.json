@@ -1,0 +1,56 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+	// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+        //Default
+        "Tyriar.shell-launcher",
+        "johnpapa.vscode-peacock",
+        "andrefischer.rocket-code",
+        "codezombiech.gitignore",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-ssh-edit",
+        "ms-vscode-remote.remote-ssh-explorer",
+        "ms-vscode-remote.remote-wsl",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "karigari.chat",
+        "ms-vsliveshare.vsliveshare",
+        "ms-vsliveshare.vsliveshare-audio",
+        "ms-vsliveshare.vsliveshare-pack",
+        "ms-vsts.team",
+        //Markdown
+        "yzhang.markdown-all-in-one",
+        "DavidAnson.vscode-markdownlint",
+        "denco.confluence-markup",
+        //Python
+        "ms-python.python",
+        "ms-python.anaconda-extension-pack",
+        "vscoss.vscode-ansible",
+        "redhat.vscode-yaml",
+        "wholroyd.jinja",
+        "samuelcolvin.jinjahtml",
+        "Artymaury.template-finder",
+        //Linux
+        "shakram02.bash-beautify",
+        //Sphinx
+        "lextudio.restructuredtext",
+        "James-Yu.latex-workshop",
+        "jebbs.plantuml",
+        "geeklearningio.graphviz-markdown-preview",
+        "Stephanvs.dot",
+        "GrapeCity.gc-excelviewer",
+        //Containers
+        "hashicorp.terraform",
+        "ms-azuretools.vscode-docker",
+        "formulahendry.docker-explorer",
+        "ms-kubernetes-tools.vscode-kubernetes-tools"
+	],
+	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+	"unwantedRecommendations": [
+		
+	]
+}
